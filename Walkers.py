@@ -26,7 +26,6 @@ while True:
 
     if cv2.waitKey(1) == 32: #32 é a barra de espaço
         break
-
+    cv2.imshow("Janela", cap)
 cap.release()
 cv2.destroyAllWindows()
-cv2.imshow("Janela", cap)
