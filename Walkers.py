@@ -23,7 +23,7 @@ while True:
     # Extraia as caixas delimitadoras para quaisquer corpos identificados
     for(x,y,w,h) in body:
         cv2.rectangle(cap,(x,y),(x+w, y+h), (180,255,0), 2)
-            cv2.imshow("Janela", cap)
+            cv2.imshow("Janela", frame)
     if cv2.waitKey(1) == 32: #32 é a barra de espaço
         break
 
